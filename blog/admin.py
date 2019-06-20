@@ -9,7 +9,7 @@ from django.utils.html import format_html
 
 
 class ArticleListFilter(admin.SimpleListFilter):
-    title = _("作者")
+	title = _("作者")
     parameter_name = 'author'
 
     def lookups(self, request, model_admin):
